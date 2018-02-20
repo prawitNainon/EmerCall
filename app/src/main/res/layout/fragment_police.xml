@@ -5,6 +5,7 @@
 
     <!--Red Layout-->
     <LinearLayout
+        android:padding="20dp"
         android:layout_centerInParent="true"
         android:orientation="vertical"
         android:layout_width="wrap_content"
@@ -17,13 +18,12 @@
             android:layout_height="wrap_content">
 
             <!--Green Layout-->
-
-
             <RelativeLayout
-                android:layout_width="150dp"
-                android:layout_height="150dp">
+                android:layout_margin="@dimen/margin"
+                android:layout_width="@dimen/icon"
+                android:layout_height="@dimen/icon">
 
-                <!--station1-->
+                <!--Station1-->
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -31,92 +31,75 @@
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:src="@drawable/station1" />
+
             </RelativeLayout>
 
 
+            <!--Green Layout-->
+            <RelativeLayout
+                android:layout_margin="@dimen/margin"
+                android:layout_width="@dimen/icon"
+                android:layout_height="@dimen/icon">
 
-            <!--Blue Layout-->
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                <!--Station2-->
+                <ImageView
+                    android:src="@drawable/station2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
 
-                <!--stationl    -->
-
-                <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp">
-
-                    <!--station2-->
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:src="@drawable/station2" />
-                </RelativeLayout>
-
-
-
-                <!--station2-->
-
-
-
-            </LinearLayout>
+            </RelativeLayout>
 
 
 
 
         </LinearLayout>
 
+
         <!--Blue Layout-->
         <LinearLayout
-
             android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <!--Green Layout    -->
-
+            <!--Green Layout-->
             <RelativeLayout
-                android:layout_width="150dp"
-                android:layout_height="150dp">
+                android:layout_margin="@dimen/margin"
+                android:layout_width="@dimen/icon"
+                android:layout_height="@dimen/icon">
 
-                <!--station3-->
+                <!--Station3-->
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
                     android:src="@drawable/station3" />
 
             </RelativeLayout>
 
-
-
-            <!--Green Layout    -->
-
+            <!--Green Layout-->
             <RelativeLayout
-                android:layout_width="150dp"
-                android:layout_height="150dp">
+                android:layout_margin="@dimen/margin"
+                android:layout_width="@dimen/icon"
+                android:layout_height="@dimen/icon">
 
-                <!--station4-->
+                <!--Station4-->
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:src="@drawable/station4" />
+                    android:src="@drawable/station5" />
+
             </RelativeLayout>
 
 
 
+
+
         </LinearLayout>
-
-
-
-
 
 
     </LinearLayout>
