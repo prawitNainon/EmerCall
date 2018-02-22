@@ -5,10 +5,9 @@
 
     <!--Red Layout-->
     <LinearLayout
-        android:layout_centerVertical="true"
-        android:background="#88fafafa"
+        android:background="#82ffffff"
         android:padding="20dp"
-        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -27,22 +26,23 @@
 
                 <!--Station1-->
                 <ImageView
+                    android:id="@+id/imageViewStation1"
+                    android:src="@drawable/station1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:src="@drawable/station1" />
+                    android:layout_height="match_parent" />
+
                 <!--Title-->
                 <TextView
+                    android:clickable="true"
+                    android:id="@+id/textViewStation1"
                     android:layout_alignParentBottom="true"
-                    android:padding="1dp"
+                    android:padding="5dp"
                     android:gravity="center_horizontal"
-                    android:textColor="#33a4f4"
-                    android:background="#f41072"
+                    android:textColor="#ffffff"
+                    android:background="#82000000"
                     android:textStyle="bold"
-                    android:textSize="18dp"
-                    android:text="station 1"
+                    android:textSize="18sp"
+                    android:text="@string/station1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -57,29 +57,26 @@
 
                 <!--Station2-->
                 <ImageView
+                    android:id="@+id/imageViewStation2"
+                    android:src="@drawable/station2"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:src="@drawable/station2" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="71dp"
-                    android:background="#e90a6a"
-                    android:gravity="center_horizontal"
-                    android:padding="1dp"
-                    android:text="station 2"
-                    android:textColor="#33a4f4"
-                    android:textSize="18dp"
-                    android:textStyle="bold" />
+                    android:layout_height="match_parent" />
 
 
                 <!--Title-->
+                <TextView
+                    android:clickable="true"
+                    android:id="@+id/textViewStation2"
+                    android:layout_alignParentBottom="true"
+                    android:padding="5dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#ffffff"
+                    android:background="#82000000"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="@string/station2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
 
             </RelativeLayout>
@@ -104,25 +101,26 @@
 
                 <!--Station3-->
                 <ImageView
+                    android:id="@+id/imageViewStation3"
+                    android:src="@drawable/station3"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentTop="true"
-                    android:src="@drawable/station3" />
+                    android:layout_height="match_parent" />
+
 
                 <!--Title-->
                 <TextView
+                    android:id="@+id/textViewStation3"
                     android:layout_alignParentBottom="true"
-                    android:padding="1dp"
+                    android:padding="5dp"
                     android:gravity="center_horizontal"
-                    android:textColor="#33a4f4"
-                    android:background="#e90a6a"
+                    android:textColor="#ffffff"
+                    android:background="#82000000"
                     android:textStyle="bold"
-                    android:textSize="18dp"
-                    android:text="station 3"
+                    android:textSize="18sp"
+                    android:text="@string/station3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
+
 
             </RelativeLayout>
 
@@ -134,25 +132,25 @@
 
                 <!--Station4-->
                 <ImageView
+                    android:id="@+id/imageViewStation4"
+                    android:src="@drawable/station4"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:src="@drawable/station5" />
+                    android:layout_height="match_parent" />
 
                 <!--Title-->
                 <TextView
+                    android:id="@+id/textViewStation4"
                     android:layout_alignParentBottom="true"
-                    android:padding="1dp"
+                    android:padding="5dp"
                     android:gravity="center_horizontal"
-                    android:textColor="#33a4f4"
-                    android:background="#e90a6a"
+                    android:textColor="#ffffff"
+                    android:background="#82000000"
                     android:textStyle="bold"
-                    android:textSize="18dp"
-                    android:text="station 4"
+                    android:textSize="18sp"
+                    android:text="@string/station4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
+
 
             </RelativeLayout>
 
